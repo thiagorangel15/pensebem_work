@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+##  🧠  Quiz App (Sugestão)  🧠
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é um aplicativo de quiz interativo inspirado no antigo PenseBem,  desenvolvido com React. 
 
-## Available Scripts
+##  💻  Tecnologias Utilizadas:
 
-In the project directory, you can run:
+- JavaScript
+- React 
+- HTML
+- CSS
 
-### `npm start`
+##  📂  Arquitetura do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+###  📁  public/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contém os arquivos estáticos do aplicativo.
 
-### `npm test`
+- `index.html`: Ponto de entrada principal do aplicativo.
+- `manifest.json`: Arquivo de manifesto para web apps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+###  📁  src/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contém o código-fonte principal do aplicativo.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `App.js` 🚀: Componente principal da aplicação.
+- `App.css`: Estilos CSS do componente principal.
+- `App.test.js`: Testes unitários para o componente principal.
+- `index.js`: Arquivo de inicialização do aplicativo React.
+- `index.css`: Estilos CSS globais.
+- `logo.svg`: Logotipo do aplicativo em formato SVG.
+- `reportWebVitals.js`:  Relatórios de performance da aplicação.
+- `setupTests.js`: Configurações para testes unitários. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ####  📁  src/components/
 
-### `npm run eject`
+    Contém os componentes reutilizáveis da interface do quiz.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    - `ProgramSelector.js`, `ProgramSelector.css`: Componente para seleção de programa.
+    - `Question.js`, `Question.css`: Componente para exibir as perguntas do quiz.
+    - `Score.js`: Componente para exibir a pontuação do usuário.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ####  📁  src/data/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    - `programs.js`:  Armazenamento dos dados dos quizzes, separados por programa.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+##  Observações Adicionais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- A estrutura é de um aplicativo de quiz dinâmico onde os usuários podem selecionar um "programa" específico e responder perguntas relacionadas. 
+ 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espero que este README seja útil! 😄 
