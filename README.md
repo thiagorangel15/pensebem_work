@@ -1,4 +1,4 @@
-##  🧠  Quiz App (Sugestão)  🧠
+##  🧠  PenseBem  🧠
 
 Este projeto é um aplicativo de quiz interativo inspirado no antigo PenseBem,  desenvolvido com React. 
 
